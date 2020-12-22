@@ -8,3 +8,5 @@ export const AddTransaction = () => {
 
     const onSubmit = e => {
         e.preventDefault();
+
+        const newTransaction = {
