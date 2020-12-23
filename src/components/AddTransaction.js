@@ -17,3 +17,8 @@ export const AddTransaction = () => {
     
     addTransaction(newTransaction);
 }
+
+return (
+    <>
+      <h3>Add new transaction</h3>
+      <form onSubmit={onSubmit}></form>
