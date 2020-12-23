@@ -29,3 +29,5 @@ return (
         <div className="form-control">
           <label htmlFor="amount"
             >Amount <br />
+              (negative - expense, positive - income)</label
+          >
