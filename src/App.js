@@ -10,3 +10,7 @@ import './App.css';
 function App() {
   return (
     <GlobalProvider></GlobalProvider>
+    <Header />
+    <div className="container">
+      <Balance />
+      <IncomeExpenses />
