@@ -17,3 +17,6 @@ export const GlobalProvider = ({ children }) => {
           payload: id
         });
       }
+
+      function addTransaction(transaction) {
+        dispatch({
